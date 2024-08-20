@@ -1,12 +1,17 @@
 
 <p align="left">
-    <b><a href="https://github.com/katzer/cordova-plugin-background-mode/tree/example">SAMPLE APP</a> :point_right:</b>
+    <b><a href="https://github.com/katzer/cordova-plugin-background-mode/tree/example">SAMPLE APP (katzer)</a> :point_right:</b>
 </p>
 
-Cordova Background Plugin [![npm version](https://badge.fury.io/js/cordova-plugin-background-mode.svg)](http://badge.fury.io/js/cordova-plugin-background-mode) [![Build Status](https://travis-ci.org/katzer/cordova-plugin-background-mode.svg?branch=master)](https://travis-ci.org/katzer/cordova-plugin-background-mode) [![codebeat badge](https://codebeat.co/badges/49709283-b313-4ced-8630-f520baaec7b5)](https://codebeat.co/projects/github-com-katzer-cordova-plugin-background-mode)
+Cordova Background Plugin
+
 =========================
 
 Plugin for the [Cordova][cordova] framework to perform infinite background execution.
+
+This project is based on https://github.com/katzer/cordova-plugin-background-mode . Bruno Chikuji have taken on responsibility for hosting it and will be maintaining it and merging PRs from the community. If you have any fixes, features or updates that you would like included, please do raise a PR or issue on the GitHub repository.
+
+ATENTION: This project changes the package name from it's parents. The words are the same but in a different order, which is easy to miss and can cause some confusion
 
 Most mobile operating systems are multitasking capable, but most apps dont need to run while in background and not present for the user. Therefore they pause the app in background mode and resume the app before switching to foreground mode.
 The system keeps all network connections open while in background, but does not deliver the data until the app resumes.
@@ -29,15 +34,7 @@ The plugin can be installed via [Cordova-CLI][CLI] and is publicly available on 
 
 Execute from the projects root folder:
 
-    $ cordova plugin add cordova-plugin-background-mode
-
-Or install a specific version:
-
-    $ cordova plugin add de.appplant.cordova.plugin.background-mode@VERSION
-
-Or install the latest head version:
-
-    $ cordova plugin add https://github.com/katzer/cordova-plugin-background-mode.git
+    $ cordova plugin add https://github.com/brunochikuji/cordova-plugin-background-mode.git
 
 Or install from local source:
 
